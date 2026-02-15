@@ -1,15 +1,74 @@
-# flutter_Agent
+# 🚀 Catalog Copilot — Flutter × Algolia
 
-A new Flutter project.
+**Catalog Copilot** is a web-based product discovery experience built with Flutter Web and Algolia as part of the Algolia Agent Studio Challenge.
 
-## Getting Started
+The project focuses on delivering a **consumer-facing, non-conversational copilot** that improves product search through relevance tuning, structured data, and low-latency retrieval — without relying on chat-based interactions.
 
-The goal was to design a consumer-facing, non-conversational experience where search relevance, data structure, and performance drive the user experience — instead of chat-based flows. This project demonstrates hands-on work with: • Flutter Web • Algolia Search (indexing, searchable attributes, relevance tuning) • Product-oriented search UX • Real-time, low-latency data retrieval.
-- [🔗 Live demo: https://algolia-agent-challenge.web.app
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🔗 **Live Demo:**  
+https://algolia-agent-challenge.web.app
 
-- Happy to discuss how search, data quality, and UX intersect in real-world product development.
-- [Linkedin :www.linkedin.com/in/marialilianajimenezm-android-flutter
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Key Features
+
+- 🔍 Fast product search powered by Algolia  
+- 🧠 Copilot-style insights without conversational UI  
+- ⚡ Low-latency search experience  
+- 🏷 Quality Score (QS) visualization  
+- 📊 Product detail view with contextual signals  
+- 🎯 Search-driven UX focused on decision support  
+- 🌐 Built with Flutter Web  
+
+---
+
+## 🧠 Concept
+
+Catalog Copilot acts as a **silent assistant** that enhances product discovery by:
+
+- prioritizing relevant results  
+- surfacing product quality signals  
+- reducing search friction  
+- guiding user decisions in context  
+
+Unlike chat-based assistants, this approach keeps users **in flow** while relevance does the heavy lifting.
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter Web**
+- **Dart**
+- **Algolia Search**
+  - Indexing
+  - Searchable attributes
+  - Relevance tuning
+- **Dio** (HTTP client)
+- **GoRouter** (navigation)
+- **dart-define** (secure environment config)
+
+---
+
+## 🏗 Architecture Highlights
+
+- Clean separation between UI and search layer  
+- Search service abstraction for Algolia  
+- Typed product model with Freezed  
+- Responsive layout with reusable UI components  
+- Production-ready environment configuration  
+
+---
+
+## 📦 Getting Started
+## 🔐 Environment Variables
+
+This project uses `flutter_dotenv`.
+
+```bash
+cp .env.example .env
+flutter pub get
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd flutter_challenge
